@@ -2,6 +2,10 @@
 
 A small ASP.NET MVC 5 storefront on .NET Framework 4.8, backed by Entity Framework 6 and SQL Server. It lists products and stores, handles sign-in, and keeps a cart. This is the customer-facing app in the Caldova Retail modernization scenario.
 
+## Setup
+
+Before running the app, open [connectionStrings.config](src/eShopLite.StoreFx/connectionStrings.config) and replace the placeholder password with your SQL Server password.
+
 # 🔑 Demo logins
 
 The lab applications ship with seeded accounts. Whenever a module tells you to sign in, these are the credentials.
